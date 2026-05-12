@@ -244,6 +244,7 @@ All YouTube skills check for a `youtube-context.md` file. Run `youtube-context` 
 | Skill | What It Does |
 |-------|-------------|
 | [handoff](general/) | Package context for AI agents, your future self, or coworkers. Modes: create, list, update, view. |
+| [watch](general/watch/) | Read a video like a PDF. Pulls timestamped transcript from any URL yt-dlp supports (YouTube, Loom, TikTok, X, Vimeo, ~1000 sites) or a local file. Default is fast transcript-only (no video download). Opt into `--with-frames` when the visual layer matters. Whisper fallback (Groq/OpenAI) for sources without captions. Requires `yt-dlp` + `ffmpeg`. |
 
 ---
 
